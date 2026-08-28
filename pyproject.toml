@@ -1,0 +1,23 @@
+[project]
+name = "angelone-mcp"
+version = "0.1.0"
+description = "MCP server for Angel One's SmartAPI (trading, portfolio, market data, GTT, margins)"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.6.0,<2.0.0",
+    "requests>=2.31.0",
+    "pyotp>=2.9.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+angelone-mcp = "angelone_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["angelone_mcp"]
