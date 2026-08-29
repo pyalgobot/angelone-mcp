@@ -1,5 +1,7 @@
 # angelone-mcp
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/pyalgobot/angelone-mcp.git)
+
 An MCP (Model Context Protocol) server that wraps [Angel One's SmartAPI](https://smartapi.angelone.in/docs) —
 trading, portfolio, market data, GTT rules, and margin/brokerage — so any MCP
 client (Claude, Claude Code, etc.) can query your account and place orders
